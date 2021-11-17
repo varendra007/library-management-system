@@ -4436,10 +4436,7 @@ void AdminPanel()
             // SearchBooks();
             SeacrchAndDisplayBooks();
         }
-        else if (strcmp(key, "6\0") == 0)
-        {
-            printallbooks();
-        }
+
         else if (strcmp(key, "6\0") == 0)
         {
             DisplayNewsletter();
@@ -5494,7 +5491,7 @@ int main()
 
     //This commented lines of code is used to Fill Details of Admin since we do not need it again that's why we comment these lines.
 
-    /*   struct Admin U;
+    /*  struct Admin U;
 
     FILE *fp;
     system("cls");
@@ -5504,15 +5501,15 @@ int main()
     scanf("%s", &U.firstname);
     // printf("\nEnter Last Name: ");
     // scanf("%s", &U.lastname);
-    strcpy(U.lastname,"\0");
+    strcpy(U.lastname, "\0");
     printf("\nEnter Username: ");
     scanf("%s", &U.username);
     printf("\nEnter Password: ");
     scanf("%s", &U.password);
     printf("\nEnter Phone No.: ");
-    scanf("%s",&U.phoneno);
+    scanf("%s", &U.phoneno);
     printf("\n Enter email:");
-    scanf("%s",&U.email);
+    scanf("%s", &U.email);
     fp = fopen("DetailsOfAdmin.txt", "wb+");
     if (fp == NULL)
     {
@@ -5527,7 +5524,9 @@ int main()
     gotoxy(75, 25);
     printf("Press any key to continue....");
     _getch();
-    system("cls"); */
+    system("cls");
+ */
+    // addque();
     system("cls");
     // addque();
     /*  printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
